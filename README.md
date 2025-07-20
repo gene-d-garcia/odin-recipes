@@ -1,11 +1,12 @@
 # odin-recipes
 
-In this project, I will demonstrate basic HTML practices.
-This includes:
-- Elements and Tags
-- HTML Boilerplate
-- Working with Text
-- Lists
-- Links and Images
+This project demonstrates basic HTML practices as part of The Odin Project’s Foundations course. The focus is on learning and applying core HTML concepts, including:
 
-GOAL: Build a basic recipe website.
+- Elements and tags  
+- HTML boilerplate structure  
+- Working with text content  
+- Creating ordered and unordered lists  
+- Adding links and images  
+
+### 🎯 Goal
+Build a simple multi-page recipe website using only HTML.
