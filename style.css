@@ -4,6 +4,38 @@
     box-sizing: border-box;
 }
 
-* {
+/* * {
     outline: 2px solid red;
+} */
+
+body {
+    background-color: rgb(247, 202, 202);
+    font-family: Arial, Verdana, Tahoma;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.underline-text {
+    text-decoration: underline;
+}
+
+.font-large {
+    font-size: large;
+}
+
+li {
+    display: inline-block;
+    margin: 0 1px;
+
+}
+
+a {
+    color: white;
+    display: block;
+    text-decoration: none;
+    border: 2px solid rgb(0, 26, 255);
+    background-color: black;
+    padding: 10px;
 }
