@@ -9,11 +9,23 @@
 } */
 
 body {
+    margin: 0px;
     background-color: rgb(247, 202, 202);
-    font-family: Arial, Verdana, Tahoma;
+    font-family: Arial, Verdana, Tahoma, sans-serif;
+}
+
+.text-color-white {
+    color: white;
+}
+
+.center-image {
+    display: block;
+    margin: auto;
+    border: 2px solid black;
 }
 
 .center-text {
+    list-style-position: inside;
     text-align: center;
 }
 
@@ -25,17 +37,28 @@ body {
     font-size: large;
 }
 
-li {
-    display: inline-block;
-    margin: 0 1px;
-
+.image-by-under {
+    display: block;
+    font-size: small;
+    color: black;
 }
 
-a {
+.main-page-button {
     color: white;
-    display: block;
+    display: inline-block;
     text-decoration: none;
     border: 2px solid rgb(0, 26, 255);
     background-color: black;
     padding: 10px;
+    height: auto;
+    margin: 5px 10px;
+}
+
+.description-box {
+    max-width: 500px;
+    margin: auto;
+}
+
+.alignment-change-small-left {
+    margin-left: 5px;
 }
